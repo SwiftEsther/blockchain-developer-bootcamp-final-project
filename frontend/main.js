@@ -77,8 +77,10 @@ async function fetchAccountData() {
     contract = new web3.eth.Contract(ABI, CONTRACT_ADDRESS_LOCAL);
   }
 
+  let chainData;
+
   try {
-    const chainData = evmChains.getChain(chainId); // this breaks for evmChains if it is local
+    chainData = evmChains.getChain(chainId); // this breaks for evmChains if it is local
   } catch (error) {
     console.log(error);
   }
@@ -212,6 +214,7 @@ async function onMint(e) {
     txSection.style.display = "block";
     txHashMessage.setAttribute("href", `https://rinkeby.etherscan.io/tx/${tx}`)
     txHashMessage.textContent = tx;
+    mintInput.value = "";
   }
 }
 
