@@ -7,9 +7,10 @@ import "../node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 /**
  * @title Mint-Burn Non-fungible Token
+ * @author stickykeys.eth
  * @notice Creates a mintable/burnable NFT collection
  */
-contract NFT is Ownable, ERC721 {
+contract NFTCompleted is Ownable, ERC721 {
     /**
      * @notice Price per token mint
      * @return Wei
