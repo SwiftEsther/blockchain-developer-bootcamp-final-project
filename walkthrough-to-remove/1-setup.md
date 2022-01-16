@@ -17,7 +17,7 @@ Setup the frontend
 
 ```
 mkdir frontend
-touch frontend/index.html
+touch frontend/home.html
 touch frontend/main.js
 touch frontend/env.js
 ```

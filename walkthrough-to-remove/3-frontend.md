@@ -30,7 +30,7 @@ Add the deployed contract address to you env.js file
 const CONTRACT_ADDRESS_RINKEBY=<insert_yours_here>
 ```
 
-# Edit your index.html
+# Edit your home.html
 
 Add bootstrap
 
