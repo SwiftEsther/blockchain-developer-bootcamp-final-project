@@ -3,7 +3,7 @@
 
 ## Demo
 <!-- link to frontend -->
-<!-- link to Loom video walkthrough -->
+https://www.loom.com/share/ec9d93239cd148288567a310640fcca2
 
 ## Directory structure
 
