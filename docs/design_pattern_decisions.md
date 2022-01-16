@@ -1,12 +1,11 @@
 ## Selected Design Patterns
 
 ### 1. Inheritance and Interfaces
-<!-- Describe the contracts that are inherited and provide a one line overview of what they do. -->
-<!-- Describe what methods are overidden and why -->
-<!-- Describe what it means to be ERC-X compliant -->
+The Ownable contract is for access contro that provides a mechanism where there is an account (the owner in our case) that can be granted exclusive access to specific functions.
+ERC-721 is a Non-Fungible Token (NFT) is used to identify something or someone in a unique way
 
 ### 2. Access Control Design Patterns
-<!-- Describe the use of Ownable to control access and the onlyOwner modifier -->
+The use of Ownable to control access to the mintable/burnable NFT collection and the onlyOwner modifier in setBaseURI method
 
 ### 3. Optimizing Gas
-<!-- Describe how keeping state changes out of loops optimizes gas -->
+Tried as much as possible to keep state change out of loops to optimize gas
