@@ -1,8 +1,8 @@
-# Name of project here
-<!-- project description -->
+# NFT
+A contract that allows users mint and burn Non-fungible Token. It allows users to create a mintable/burnable NFT collection
 
 ## Demo
-<!-- link to frontend -->
+https://mih-nft-ui.herokuapp.com/
 https://www.loom.com/share/ec9d93239cd148288567a310640fcca2
 
 ## Directory structure
