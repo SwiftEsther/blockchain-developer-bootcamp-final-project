@@ -65,3 +65,8 @@ const CONTRACT_ADDRESS_LOCAL=<from_ganache>
 ```sh
 truffle test
 ```
+
+
+## Possible issues
+`Error: ENOENT: no such file or directory, open '.secret'`
+Solution: You'll need a mnemonic - the twelve word phrase the wallet uses to generate public/private key pairs
